@@ -1,6 +1,6 @@
 Introduction
 ============
-This projekct was developed just for show off purposes. It starts on given Wikipedia
+This project was developed just for show off purposes. It starts on given Wikipedia link and does breath lookup until it finds given target.
 
 Assumptions
 ===========
@@ -26,7 +26,7 @@ Example
 
 python parse.py "Zmotoryzowane Odwody Milicji Obywatelskiej" "Józef Stalin"
 
-After a while and lotsa debug messages you should see something like this
+After a while and lotsa debug messages you should see:
 
 
 1. Zmotoryzowane Odwody Milicji Obywatelskiej
