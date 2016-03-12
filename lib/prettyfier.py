@@ -22,5 +22,5 @@ class Prettyfier(object):
         :return: String
         """
         url_encoded = link.split('/wiki/')[-1]
-        return urllib.unquote(url_encoded).replace("_", " ")
+        return urllib.unquote(url_encoded).replace("_", " ").capitalize()
 

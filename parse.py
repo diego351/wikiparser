@@ -10,13 +10,13 @@ __author__ = 'jnowak'
 logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
 try:
-    finish_at = sys.argv[2]
+    finish_at = sys.argv[2].decode('utf-8')
 
 except IndexError:
     finish_at = 'Straż Pożarna'
 
 try:
-    start_from = sys.argv[1]
+    start_from = sys.argv[1].decode('utf-8')
 
 except IndexError:
     logging.error('Usage: python parse.py <start_from> <finish_at> (optional)')
