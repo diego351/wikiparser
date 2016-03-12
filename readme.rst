@@ -24,4 +24,18 @@ Instalation
 Example
 =======
 
+python parse.py "Zmotoryzowane Odwody Milicji Obywatelskiej" "Józef Stalin"
+
+After a while and lotsa debug messages you should see something like this
+
+
+1. Zmotoryzowane Odwody Milicji Obywatelskiej
+https://pl.wikipedia.org/wiki/Zmotoryzowane Odwody Milicji Obywatelskiej
+
+2. Polska Rzeczpospolita Ludowa
+https://pl.wikipedia.org/wiki/Polska_Rzeczpospolita_Ludowa
+
+3. Józef Stalin
+https://pl.wikipedia.org/wiki/J%C3%B3zef_Stalin
+
 
