@@ -1,6 +1,7 @@
 Assumptions
 ===========
 python 2.7.x is installed
+
 pip is installed
 
 Instalation
