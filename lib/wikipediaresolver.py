@@ -34,8 +34,8 @@ class WikipediaResolver(object):
             if found_node:
                 break
 
-        logging.debug("Formating tree... This may take a while.")
-        self._show_tree()
+        # logging.debug("Formating tree... This may take a while.")
+        # self._show_tree()
 
         path = self._backtrack_path()
 
